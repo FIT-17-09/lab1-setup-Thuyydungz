@@ -13,8 +13,8 @@ $images = @(
   "grafana/grafana:11.2.0",
   "redis:7-alpine",
   "swaggerapi/swagger-ui:v5.17.14",
-  "hello-world:latest",
-  "ultralytics/ultralytics:latest-cpu"
+  "hello-world:latest"
+  #"ultralytics/ultralytics:latest-cpu"
 )
 
 New-Item -ItemType Directory -Force -Path "evidence/buoi-01" | Out-Null
