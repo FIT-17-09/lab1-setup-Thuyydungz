@@ -107,5 +107,6 @@ flowchart LR
     User[Actor] --> Service[Service của nhóm]
     Service --> DB[(Database)]
     Service --> Other[Service khác]
+```
 
-![alt text](service.png) 
+![alt text](service.png)
